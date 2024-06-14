@@ -1,0 +1,75 @@
+@media screen and (max-width:425px){
+    .banner-text{
+        text-align: center;
+    }
+    .banner-img{
+        display: none;
+    } 
+    .banner-holder {
+        padding: 80px 0 0 0;
+    }
+    .section-btn > button{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 426px){
+    .banner-holder {
+        padding: 160px 0 0 0;
+    }
+    .section-btn{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+:root {
+ --color1:#ff0000;
+    --grayColor:#D9D9D9;
+    --mainColor: #797EFF;
+}
+body{
+ margin: auto;
+}
+main > section:nth-child(odd){
+    background-color:#797EFF;
+    color: white;
+}
+
+section{
+    height: auto;
+}
+h1, h2, h3, h4, h5{
+    text-align: center;
+}
+.banner-text > h4{
+    font-weight: 200;
+}
+.section1-info > row > col{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+.info-img{
+    display: flex;
+    align-items: center;
+    height: 160px;
+}
+.description-holder {
+    background-color: var(--grayColor);
+    height: 220px;
+}
+
+/*h5 {
+    color: var(--mainColor);
+}*/
+
+.fish {
+    height:220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.purpleSection {
+    background-color: var(--mainColor);
+}
